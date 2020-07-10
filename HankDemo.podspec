@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "HankDemo"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.summary      = "HankDemo is a SendImages like wechats in sending Friendship Images"
   spec.homepage     = "https://github.com/qin-xiaogang/HankDemo"
   spec.license      = "MIT"
