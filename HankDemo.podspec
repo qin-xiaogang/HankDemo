@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = "8.0"
   spec.source       = { :git => "https://github.com/qin-xiaogang/HankDemo.git", :tag => "#{spec.version}" }
-  s.source_files  = "SendWeChat/**/*.{h,m}","Tools/*.{h,m}"
+  spec.source_files  = "SendWeChat/**/*.{h,m}","Tools/*.{h,m}"
   spec.requires_arc = true
   spec.dependency  "QBImagePickerController"
   spec.dependency  "Masonry","~> 1.0.0"
